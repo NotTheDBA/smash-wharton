@@ -1,3 +1,5 @@
+# Terminal - Git Commands
+## Retrieving changes from the server (remote repo)
 
 Follow along as I demonstrate these commands, then try them yourselves:
 

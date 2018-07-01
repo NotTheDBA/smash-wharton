@@ -1,3 +1,5 @@
+# Github and Terminal - Git Commands
+## Creating your project (repo)
 
 Next you are going to create your first project on your Github account.   
 

@@ -1,3 +1,5 @@
+# Terminal Commands
+## Working With Directories (folders)
 
 Follow along as I demonstrate these commands, then try them yourselves:
 
