@@ -1,0 +1,19 @@
+/************************
+    Everything here is for
+    my small screens only.
+*************************/
+
+html, body {
+    align-content: center;
+    background: #c0eebe;
+    font-family: 'Muli', sans-serif;
+    height: 1100px;
+    margin: 0;
+}
+
+#headshot {
+    float: initial;
+    justify-content: center;
+    padding: 1em;
+    width: 90%;
+}
