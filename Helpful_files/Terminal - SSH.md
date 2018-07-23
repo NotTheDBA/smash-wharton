@@ -38,18 +38,18 @@ Use this terminal command to copy the contents of your new SSH Key to your clipb
 * ##### Settings link in the user bar
 In the upper-right corner of any page, click your profile photo, then click Settings.
 
-![userbar-account-settings](/assets/userbar-account-settings_y6wpu158s.png)
+![userbar-account-settings](./assets/userbar-account-settings.png)
 
 * ##### Authentication keys
 In the user settings sidebar, click SSH and GPG keys.
 
-![settings-sidebar-ssh-keys](/assets/settings-sidebar-ssh-keys_6pi183b4v.png)
+![settings-sidebar-ssh-keys](./assets/settings-sidebar-ssh-keys.png)
 
 * ##### SSH Key button
 
 Click New SSH key or Add SSH key.
 
-![ssh-add-ssh-key](/assets/ssh-add-ssh-key.png)
+![ssh-add-ssh-key](./assets/ssh-add-ssh-key.png)
 
 * ##### Title Field
 
@@ -58,14 +58,14 @@ In the "Title" field, add a descriptive label for the new key. For example, you 
 * ##### The key field
 Paste your key into the "Key" field.   (You can use `CTRL+V` to paste)
 
-![ssh-key-paste](/assets/ssh-key-paste.png)
+![ssh-key-paste](./assets/ssh-key-paste.png)
 
 * ##### The Add key button
 Click Add SSH key.
 
-![ssh-add-key](/assets/ssh-add-key.png)
+![ssh-add-key](./assets/ssh-add-key.png)
 
 * ##### Password dialog
 If prompted, confirm your GitHub password.
 
-![sudo_mode_popup](/assets/sudo_mode_popup.png)
+![sudo_mode_popup](./assets/sudo_mode_popup.png)
