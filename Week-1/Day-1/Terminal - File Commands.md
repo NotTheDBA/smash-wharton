@@ -1,7 +1,7 @@
+# Terminal Commands
+## Working With Files
 
 Follow along as I demonstrate these commands, then try them yourselves:
-
-
 
 If you are not in the folder "C:\Source\Lessons\W1-D1", use your "ls" and "cd" commands to 
 make sure you are.
