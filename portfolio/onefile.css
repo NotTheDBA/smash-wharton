@@ -1,0 +1,156 @@
+/************************************************
+ This version only uses one file...  The top part
+ with my @media queries is only the properties I 
+ need to be different on small screens!
+*************************************************/
+
+@media screen and (max-width: 500px) {
+    /* Notice that these are the same chase in the 
+       portfolio-style-sm.css, which is the other
+       way you could do this. */
+    html, body {
+        height: 1100px;
+        margin: 0;
+    }
+    #headshot {
+        float: initial;
+        justify-content: center;
+        padding: 1em;
+        width: 90%;
+    }
+}
+
+/************************
+    This part is for my 
+    big screens. The small
+    screen version is
+    different.
+*************************/
+
+@media screen and (max-width: 500px) and (orientation:landscape) {
+    /* Notice that these are the same chase in the 
+       portfolio-style-sm.css, which is the other
+       way you could do this. */
+    html, body {
+        height: 1000px;
+        margin: 2em;
+    }
+    #headshot {
+        float: right;
+        justify-content: center;
+        padding: 1em;
+        width: 90%;
+    }
+}
+
+/************************
+    The rest
+*************************/
+
+html, body {
+    align-content: center;
+    background: #c0eebe;
+    font-family: 'Muli', sans-serif;
+}
+
+/************************
+   Everything after here 
+   affects ALL screens, 
+   because our small screen
+   css isn't different.
+*************************/
+
+h1, h2, figcaption {
+    color: #2d492c;
+    font-family: 'Abril Fatface', cursive;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+header {
+    background: #ffffff;
+    border-bottom: #cccccc solid 2px;
+    padding: 1em;
+}
+
+hr {
+    background-color: #d3d3d3;
+}
+
+header {
+    max-width: 900px;
+}
+
+.container {
+    background-color: #e3f5e2;
+    align-content: center;
+    margin-bottom: -65px;
+    max-width: 900px;
+    min-height: 100%;
+    padding: 1em;
+}
+
+.container:after {
+    content: "";
+    display: block;
+}
+
+/* This is a "sticky footer" https://css-tricks.com/snippets/css/sticky-footer/ */
+
+.signature {
+    color: #dddddd;
+    background: #666666;
+    border-top: 10px;
+    border-top-color: #4aaaa5;
+    border-top-style: solid;
+    font-family: 'Cabin', sans-serif;
+    font-size: small;
+    height: 65px;
+    max-width: 900px;
+    padding: 1em;
+}
+
+/* This should help with the iframe and sticky footer */
+
+.framepage {
+    padding: 0;
+    /* remove default padding */
+    height: inherit;
+    /* full height of viewport - padding of page due to fixed toolbars */
+    min-height: 900px;
+    width: 100%;
+}
+
+.logo {
+    display: inline;
+    padding-right: .5em;
+}
+
+.downLink {
+    float: inline-end;
+    padding-top: .5em;
+}
+
+.navLink {
+    font-size: 18px;
+    color: #2d492c;
+}
+
+.navLink:hover {
+    font-size: 18px;
+    color: #94723b;
+    font-size-adjust: 120%;
+    font-weight: bold;
+}
+
+#headshot {
+    float: right;
+    padding: 1em;
+}
+
+#bio p {
+    margin-top: 0;
+    padding: 1em;
+}
