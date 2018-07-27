@@ -1,0 +1,22 @@
+/************************************************
+    Everything here is for my small screens only.
+    The big screens and all my defaults are in
+    portfoliostyle.css
+*************************************************/
+
+/************************************************
+ The only thing in this file in the properties I 
+ need to be different than the other file!
+*************************************************/
+
+html, body {
+    height: 1100px;
+    margin: 0;
+}
+
+#headshot {
+    float: initial;
+    justify-content: center;
+    padding: 1em;
+    width: 90%;
+}
