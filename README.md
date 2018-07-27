@@ -3,3 +3,5 @@
 
 #### Class instructional material
 
+=======
+Class material on the main branch will be updated daily.
